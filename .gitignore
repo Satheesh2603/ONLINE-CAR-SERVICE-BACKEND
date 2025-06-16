@@ -1,0 +1,55 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# testing
+/coverage
+
+# environment variables
+.env
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# misc
+.DS_Store
+*.pem
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# system files
+Thumbs.db
+ehthumbs.db
+*.swp
+
+# parcel-bundler cache
+.cache/
+
+# Mac system files
+.DS_Store
+
+# local env files (optional)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# eslint cache
+.eslintcache
+
+# optional: lock files (if you prefer to exclude them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
